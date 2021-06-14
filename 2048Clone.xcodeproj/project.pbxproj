@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		72E029442671AD3200378F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029432671AD3200378F1E /* AppDelegate.swift */; };
-		72E029482671AD3200378F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029472671AD3200378F1E /* ViewController.swift */; };
+		72E029482671AD3200378F1E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029472671AD3200378F1E /* GameViewController.swift */; };
 		72E0294B2671AD3200378F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E029492671AD3200378F1E /* Main.storyboard */; };
 		72E0294D2671AD3600378F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72E0294C2671AD3600378F1E /* Assets.xcassets */; };
 		72E029502671AD3600378F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72E0294E2671AD3600378F1E /* LaunchScreen.storyboard */; };
+		72E0295C2671C2A400378F1E /* default-color.json in Resources */ = {isa = PBXBuildFile; fileRef = 72E0295B2671C2A400378F1E /* default-color.json */; };
+		72E0295F2671C3B300378F1E /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0295E2671C3B300378F1E /* GameBoardView.swift */; };
+		72E029612671C47C00378F1E /* GameTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029602671C47C00378F1E /* GameTitleView.swift */; };
+		72E029642671C7C800378F1E /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029632671C7C800378F1E /* Extension+UIColor.swift */; };
+		72E029672671CB2100378F1E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029662671CB2100378F1E /* Constants.swift */; };
+		72E029692671E6E300378F1E /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E029682671E6E300378F1E /* Extension+Array.swift */; };
+		72E0296D2671EA7900378F1E /* Game2048.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0296C2671EA7900378F1E /* Game2048.swift */; };
+		72E0296F2671F7CD00378F1E /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E0296E2671F7CD00378F1E /* Extension+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72E029402671AD3200378F1E /* 2048Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2048Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72E029432671AD3200378F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72E029472671AD3200378F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72E029472671AD3200378F1E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		72E0294A2671AD3200378F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72E0294C2671AD3600378F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72E0294F2671AD3600378F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72E029512671AD3600378F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72E0295B2671C2A400378F1E /* default-color.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "default-color.json"; sourceTree = "<group>"; };
+		72E0295E2671C3B300378F1E /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		72E029602671C47C00378F1E /* GameTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTitleView.swift; sourceTree = "<group>"; };
+		72E029632671C7C800378F1E /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		72E029662671CB2100378F1E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		72E029682671E6E300378F1E /* Extension+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Array.swift"; sourceTree = "<group>"; };
+		72E0296C2671EA7900378F1E /* Game2048.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2048.swift; sourceTree = "<group>"; };
+		72E0296E2671F7CD00378F1E /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,86 @@
 		72E029422671AD3200378F1E /* 2048Clone */ = {
 			isa = PBXGroup;
 			children = (
+				72E029622671C7B400378F1E /* Extension */,
+				72E029592671B06E00378F1E /* Modules */,
+				72E029572671AFE800378F1E /* Resources */,
+			);
+			path = 2048Clone;
+			sourceTree = "<group>";
+		};
+		72E029572671AFE800378F1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72E0295B2671C2A400378F1E /* default-color.json */,
 				72E029432671AD3200378F1E /* AppDelegate.swift */,
-				72E029472671AD3200378F1E /* ViewController.swift */,
 				72E029492671AD3200378F1E /* Main.storyboard */,
 				72E0294C2671AD3600378F1E /* Assets.xcassets */,
 				72E0294E2671AD3600378F1E /* LaunchScreen.storyboard */,
 				72E029512671AD3600378F1E /* Info.plist */,
 			);
-			path = 2048Clone;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		72E029592671B06E00378F1E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				72E029652671CB1400378F1E /* Config */,
+				72E0295A2671B07600378F1E /* Game */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		72E0295A2671B07600378F1E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				72E0296B2671EA6900378F1E /* Controllers */,
+				72E0296A2671EA6200378F1E /* Models */,
+				72E0295D2671C3A200378F1E /* Views */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		72E0295D2671C3A200378F1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72E0295E2671C3B300378F1E /* GameBoardView.swift */,
+				72E029602671C47C00378F1E /* GameTitleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72E029622671C7B400378F1E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72E029632671C7C800378F1E /* Extension+UIColor.swift */,
+				72E029682671E6E300378F1E /* Extension+Array.swift */,
+				72E0296E2671F7CD00378F1E /* Extension+String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		72E029652671CB1400378F1E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				72E029662671CB2100378F1E /* Constants.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		72E0296A2671EA6200378F1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72E0296C2671EA7900378F1E /* Game2048.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		72E0296B2671EA6900378F1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72E029472671AD3200378F1E /* GameViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +212,7 @@
 				72E029502671AD3600378F1E /* LaunchScreen.storyboard in Resources */,
 				72E0294D2671AD3600378F1E /* Assets.xcassets in Resources */,
 				72E0294B2671AD3200378F1E /* Main.storyboard in Resources */,
+				72E0295C2671C2A400378F1E /* default-color.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72E029482671AD3200378F1E /* ViewController.swift in Sources */,
+				72E029482671AD3200378F1E /* GameViewController.swift in Sources */,
+				72E0296D2671EA7900378F1E /* Game2048.swift in Sources */,
+				72E029642671C7C800378F1E /* Extension+UIColor.swift in Sources */,
+				72E029612671C47C00378F1E /* GameTitleView.swift in Sources */,
 				72E029442671AD3200378F1E /* AppDelegate.swift in Sources */,
+				72E0296F2671F7CD00378F1E /* Extension+String.swift in Sources */,
+				72E0295F2671C3B300378F1E /* GameBoardView.swift in Sources */,
+				72E029672671CB2100378F1E /* Constants.swift in Sources */,
+				72E029692671E6E300378F1E /* Extension+Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +379,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 2048Clone/Info.plist;
+				DEVELOPMENT_TEAM = 9K325FD2A2;
+				INFOPLIST_FILE = 2048Clone/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,7 +399,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 2048Clone/Info.plist;
+				DEVELOPMENT_TEAM = 9K325FD2A2;
+				INFOPLIST_FILE = 2048Clone/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
